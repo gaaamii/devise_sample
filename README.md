@@ -6,13 +6,13 @@
 
 ## つかいかた
 
-Gemfileを編集。
+### Gemfileを編集
 
 ```
 gem 'devise'
 ```
 
-インストール。
+### インストール
 
 ```
 bundle
@@ -25,6 +25,10 @@ bundle
 ```
 rails generate devise:install
 ```
+
+`config/initializers/devise.rb`でDeviseの設定ができて、config/locales/devise.en.yml`を見てみると、サインイン時の文言とかそういうのが書かれている。
+
+### モデル生成
 
 > Replace MODEL with the class name used for the application’s users (it’s frequently User but could also be Admin). This will create a model (if one does not exist) and configure it with default Devise modules. The generator also configures your config/routes.rb file to point to the Devise controller.
 
