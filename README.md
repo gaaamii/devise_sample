@@ -19,6 +19,7 @@ bundle
 ```
 
 > The generator will install an initializer which describes ALL Devise's configuration options and you MUST take a look at it.
+
 ジェネレータでイニシャライザをインストール。Deviseの設定オプションとかがぜんぶ書かれてる。何がインストールされたか見とくこと。
 
 ```
@@ -32,4 +33,3 @@ MODELのとこにモデル名を入れる。UserとかAdminとか。モデルを
 ```
 rails generate devise MODEL
 ```
-
